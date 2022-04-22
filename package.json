@@ -1,0 +1,19 @@
+{
+  "name": "blu-ai-impressions",
+  "version": "1.0.0",
+  "description": "A project to add name tags to the existing OSM features in a faster and elegent manner.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-prod": "node app.js"
+  },
+  "author": "Snehit Tadepalli",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
